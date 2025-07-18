@@ -1,0 +1,20 @@
+.fun {
+      border: 1px solid #1434e6;
+      padding: 20px;
+      width: 300px;
+      margin: 50px auto;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      border-radius: 20px;
+      background-color: orange;
+    }
+
+.fun h1 {
+      margin: 0 0 10px;
+      color: #2E8B57;
+}
+
+.fun p {
+      margin: 0;
+      color: #333;
+}

@@ -1,0 +1,41 @@
+body,html{
+    margin:0px;
+    padding:0px;
+}
+
+
+
+.cont{
+    /* display:flex;
+    flex-direction: column; */
+    position:absolute;
+    margin:50px auto;
+    left:500px;
+    top:40px; 
+    text-align: center;
+    background-color: rgba(123, 243, 2, 0.853);
+    height:550px;
+    width:500px;;
+    border-radius: 15px;
+    padding:0px;
+}
+.type{
+    position:absolute;
+    margin:0px;
+    padding-top:8px;
+    width:100vw;
+    height:60px;
+    background-color: orange;
+}
+.h{
+    position:absolute;
+    top:0px;
+    width:500px;
+    height:50x;
+    text-align: center;
+    background-color: bisque;
+}
+h1{
+    position:absolute;
+    top:0px;
+}

@@ -1,0 +1,92 @@
+body,html{
+    margin:0px;
+    padding:5px;
+    background-color:bisque;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+}
+.pink{
+    width:600px;
+    background-color: gray;
+    height:650px;
+    position:relative;
+    left:700px;
+    margin-top:8px;
+    border-radius: 20px;
+    padding-top: 30px;
+    background-image: url('cirb.avif');
+    background-position: center;
+    background-size:cover;
+    z-index: 4;
+}
+.doft{
+    display:flex;
+    flex-direction: column;
+    margin-left:150px;
+    width:400px;
+    height:170px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    border:2px solid green;
+    margin-bottom:30px;
+    transition: all 0.5s ease-in-out;
+}
+.doft:hover{
+    box-shadow:2px 3px 0px 8px rgba(0, green, 0, 0.7);
+}
+.crax {
+      position: absolute;
+      top: 40px;
+      left: 100px;
+      width: 200px;
+      height: 300px;
+    }
+    .cold {
+      position: absolute;
+      top: 252px;
+      left: -500px; 
+      height: 100vh;
+      text-orientation: upright;
+      font-size: 40px;
+      DISPLAY:flex;
+      gap:50px;         
+      font-weight: bold;
+      color: white;
+      animation: slideRight 2s ease-out forwards;
+      animation-delay: 0.3s;
+      z-index:3;
+    }
+    @keyframes slideRight {
+      0% {
+        left: -400px;
+        opacity: 0;
+      }
+      100% {
+        left: 340px;
+        opacity: 1;
+      }
+    }
+#kol{
+    height:200px;
+}
+.hat{
+  position: absolute;
+  left:400px;
+  background-color: rgba(128, 128, 128, 0.432);
+  height:160px;
+  width:400px;
+  z-index:2;
+  top:260px;
+  border-radius:30px;
+}
+img {
+    position:absolute;
+    left:230px;
+    top:140px;
+    width:500px;
+    height:400px;
+    opacity: 90%;
+    z-index:1;
+    border-radius:10px;
+}
